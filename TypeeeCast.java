@@ -1,6 +1,6 @@
 public class TypeeeCast {
     public static void main(String[] args) {
-        // Implicit Typecasting (Widening)
+        // Implicit Typecasting (Widening) 9smaller to larger)
         byte b = 10;
         short s = b;  
         int i = s;    
@@ -16,21 +16,7 @@ public class TypeeeCast {
         System.out.println("float: " + f);
         System.out.println("double: " + d);
         
-        // Explicit Typecasting (Narrowing)
-        double d2 = 123.456;
-        float f2 = (float) d2;   
-        long l2 = (long) f2;     
-        int i2 = (int) l2;       
-        short s2 = (short) i2;   
-        byte b2 = (byte) s2;     
         
-        System.out.println("\nExplicit Typecasting ");
-        System.out.println("double: " + d2);
-        System.out.println("float: " + f2);
-        System.out.println("long: " + l2);
-        System.out.println("int: " + i2);
-        System.out.println("short: " + s2);
-        System.out.println("byte: " + b2);
         
         // String to Primitive
         String str = "100";
