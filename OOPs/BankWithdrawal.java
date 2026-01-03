@@ -1,5 +1,5 @@
 public class BankWithdrawal {
-    private double balance = 20000; // Initial balance
+    private double balance = 20000; 
     
     public void withdraw(double amount) {
         if(amount <= 0) {
