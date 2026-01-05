@@ -18,7 +18,6 @@ public class LibraryLazy {
         this.name = name;
         System.out.println("Library created without books");
     }
-    
     // Create books only when required
     private void loadBooks() {
         if(books == null) {

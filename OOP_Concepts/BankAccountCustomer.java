@@ -24,7 +24,7 @@ public class BankAccountCustomer {
     
     public BankAccountCustomer(String accountNumber, String customerName, String phone) {
         this.accountNumber = accountNumber;
-        this.balance = 0.0;
+        this.balance = 450.0;
         this.customer = new Customer(customerName, phone); // Customer created immediately
     }
     
