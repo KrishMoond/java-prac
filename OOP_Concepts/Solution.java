@@ -1,5 +1,3 @@
-// 
-
 public class Solution{
     private String name;
     private Sim s;
