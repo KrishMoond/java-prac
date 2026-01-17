@@ -1,19 +1,25 @@
 import java.util.Scanner;
 
 class InsufficientBalanceException extends Exception {
-    InsufficientBalanceException(String message) { super(message); }
+    InsufficientBalanceException(String message) { 
+        super(message); 
+    }
 }
 
 class InvalidPINException extends Exception {
-    InvalidPINException(String message) { super(message); }
+    InvalidPINException(String message) { 
+        super(message); 
+    }
 }
 
 class ATMOutOfCashException extends Exception {
-    ATMOutOfCashException(String message) { super(message); }
+    ATMOutOfCashException(String message) { 
+        super(message); 
+    }
 }
 
 class ATM {
-    private int userBalance = 5000;
+    private int userBalance = 500000;
     private int correctPIN = 1234;
     private int atmCash = 10000;
     
@@ -50,6 +56,5 @@ public class ATMSystem {
             System.out.println("Transaction failed: " + e.getMessage());
         }
         
-        sc.close();
     }
-}
+} 
