@@ -1,13 +1,19 @@
 class InsufficientBalanceException extends Exception {
-    InsufficientBalanceException(String message) { super(message); }
+    InsufficientBalanceException(String message) { 
+        super(message); 
+    }
 }
 
 class DailyLimitExceededException extends Exception {
-    DailyLimitExceededException(String message) { super(message); }
+    DailyLimitExceededException(String message) { 
+        super(message);
+     }
 }
 
 class EMIDefaultException extends Exception {
-    EMIDefaultException(String message) { super(message); }
+    EMIDefaultException(String message) { 
+        super(message);
+     }
 }
 
 class BankAccount {
