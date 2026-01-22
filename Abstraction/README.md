@@ -8,7 +8,7 @@ Abstract classes and interface implementations with real-world examples.
 - **ABss.java** - Basic abstract class with display method
 - **ABasic.java** - Multi-level abstract class hierarchy with calculator operations
 - **Car.java** - Vehicle abstraction with factory pattern
-- **Interfaceee.java** - Interface implementation with multiple methods
+- **InterfaceDemo.java** - Interface implementation with multiple methods
 
 ## 🎯 Abstract Classes Covered
 

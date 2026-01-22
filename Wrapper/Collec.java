@@ -1,30 +1,14 @@
-import java.util.*;
-class Collec{   
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		ArrayList<Object> arr = new ArrayList<>();
-		 
-		while(sc.hasNext()){
-			if (sc.hasNextInt()) {
-				arr.add(sc.nextInt());
-			} else if (sc.hasNextDouble()) {
-				arr.add(sc.nextDouble());
-			} else {
-				arr.add(sc.next());
-			}
-			
-		}
-		System.out.println(arr);
+import java.util.LinkedList;
+import java.util.Scanner;
 
-		ArrayList al= new ArrayList<>();
-		al.addAll(arr);
-		System.out.println(al);
-
-		al.add(0,"Start");
-		System.out.println(al);
-
-		al.removeAll(al);
-		System.out.println(al);
-		
-	}
+public class Collec {
+    public static void main(String args[]){
+        LinkedList<String> list = new LinkedList<>();
+        Scanner sc = new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++){
+            list.add(sc.next());
+        }
+        System.out.println("Linked List: " + list);
+     }   
 }

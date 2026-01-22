@@ -1,141 +1,176 @@
-# Java Practice Repository
+<div align="center">
 
-A comprehensive collection of Java programs covering fundamental to advanced concepts for learning and practice.
+# 🚀 Java Practice Repository
 
-## 📁 Repository Structure
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+
+**A comprehensive collection of 300+ Java programs covering fundamental to advanced concepts**
+
+[📚 Getting Started](#-getting-started) • [🎯 Learning Path](#-learning-path) • [📁 Structure](#-repository-structure) • [🤝 Contributing](#-contributing)
+
+</div>
+
+---
+
+## 📊 Repository Stats
+
+<div align="center">
+
+| 📁 **Folders** | 📄 **Programs** | 🎯 **Topics** | 📈 **Difficulty** |
+|:-------------:|:---------------:|:-------------:|:-----------------:|
+| 18+ | 300+ | 15+ | Beginner → Advanced |
+
+</div>
+
+## 🗂️ Repository Structure
+
+<details>
+<summary><b>📁 Click to expand folder structure</b></summary>
 
 ```
-prac/
-├── README.md
-├── Abstraction/
-├── Arrays/
-├── Exceptions/
-├── inheritance/
-├── methods/
-├── NumberPrograms/
-├── Objects_Strings/
-├── OOP_Concepts/
-├── OOPs/
-├── polymorphisam/
-├── Relations_In_java/
-├── Strings/
-├── Wrapper/
-└── [Root Level Programs]
+📦 prac/
+├── 📄 README.md
+├── 📁 Abstraction/           # Abstract classes & interfaces
+├── 📁 Anonymous/             # Anonymous inner classes
+├── 📁 Arrays/                # Array operations & algorithms
+├── 📁 Basic_Programs/        # Real-world application programs
+├── 📁 Collections/           # Java Collections Framework
+├── 📁 Conditional_Statements/ # If-else, switch, type casting
+├── 📁 Exceptions/            # Exception handling scenarios
+├── 📁 File_handling/         # File I/O operations
+├── 📁 Functional_Programming/ # Lambda & Stream API
+├── 📁 inheritance/           # Inheritance concepts
+├── 📁 Loops/                 # For, while, do-while loops
+├── 📁 methods/               # Method implementations
+├── 📁 NumberPrograms/        # Mathematical algorithms
+├── 📁 Objects_Strings/       # Object & String basics
+├── 📁 OOP_Concepts/          # Advanced OOP
+├── 📁 OOPs/                  # OOP principles
+├── 📁 polymorphism/         # Polymorphism examples
+├── 📁 Relations_In_java/     # Object relationships
+├── 📁 Strings/               # String manipulation (46 programs)
+└── 📁 Wrapper/               # Wrapper classes
 ```
 
-## 📚 Folder Contents
+</details>
 
-### 🔹 **Abstraction** (12 files)
-- Abstract classes and methods
-- Interface implementations
-- Real-world abstraction examples
+## 📚 Topics Overview
 
-### 🔹 **Arrays** (40+ files)
-- Array operations and manipulations
-- Searching and sorting algorithms
-- Array-based problem solving
+<div align="center">
 
-### 🔹 **Exceptions** (22+ files)
-- Custom exception handling
-- Try-catch-finally blocks
-- Real-world exception scenarios
+| 🏷️ **Category** | 📁 **Folder** | 📊 **Programs** | 🎯 **Focus Area** |
+|:---------------:|:-------------:|:---------------:|:-----------------:|
+| 🔤 **Strings** | [`Strings/`](Strings/) | 46 | String manipulation & algorithms |
+| 🗃️ **Arrays** | [`Arrays/`](Arrays/) | 40+ | Array operations & sorting |
+| 🏢 **Basic Programs** | [`Basic_Programs/`](Basic_Programs/) | 25+ | Real-world applications |
+| ⚠️ **Exceptions** | [`Exceptions/`](Exceptions/) | 22+ | Error handling & custom exceptions |
+| 🏗️ **Inheritance** | [`inheritance/`](inheritance/) | 25+ | OOP inheritance concepts |
+| 🔧 **Methods** | [`methods/`](methods/) | 20+ | Method implementations |
+| 📊 **NumberPrograms** | [`NumberPrograms/`](NumberPrograms/) | 16+ | Mathematical algorithms |
+| 📦 **Collections** | [`Collections/`](Collections/) | 15+ | Java Collections Framework |
+| 🎭 **Abstraction** | [`Abstraction/`](Abstraction/) | 12+ | Abstract classes & interfaces |
+| 🧮 **OOP** | [`OOPs/`](OOPs/) | 12+ | Object-oriented principles |
+| 🔁 **Loops** | [`Loops/`](Loops/) | 10+ | For, while, do-while loops |
+| 🎯 **Functional** | [`Functional_Programming/`](Functional_Programming/) | 8+ | Lambda & Stream API |
+| 📝 **Objects_Strings** | [`Objects_Strings/`](Objects_Strings/) | 8+ | Object & String basics |
+| 🔀 **Conditional** | [`Conditional_Statements/`](Conditional_Statements/) | 3+ | If-else, switch, casting |
+| 📁 **File I/O** | [`File_handling/`](File_handling/) | 5+ | File operations |
+| 🎪 **Others** | Various | 30+ | Polymorphism, Relations, etc. |
 
-### 🔹 **inheritance** (25+ files)
-- Single, multilevel, hierarchical inheritance
-- Method overriding
-- Super keyword usage
-
-### 🔹 **methods** (20+ files)
-- Static and non-static methods
-- Method overloading
-- Parameter passing techniques
-
-### 🔹 **NumberPrograms** (12+ files)
-- Mathematical algorithms
-- Number pattern programs
-- Prime, factorial, fibonacci series
-
-### 🔹 **Objects_Strings** (4 files)
-- String manipulation basics
-- Object creation and usage
-- String comparison methods
-
-### 🔹 **OOP_Concepts** (15+ files)
-- Encapsulation examples
-- Data hiding techniques
-- Real-world OOP implementations
-
-### 🔹 **OOPs** (12+ files)
-- Object-oriented programming principles
-- Constructor usage
-- Getter-setter methods
-
-### 🔹 **polymorphisam** (5 files)
-- Method overriding examples
-- Runtime polymorphism
-- Dynamic method dispatch
-
-### 🔹 **Relations_In_java** (6 files)
-- Has-a relationship (Composition)
-- Is-a relationship (Inheritance)
-- Association and aggregation
-
-### 🔹 **Strings** (46 files)
-- Complete string manipulation programs
-- Character operations
-- String algorithms and patterns
-
-### 🔹 **Wrapper** (1+ files)
-- Wrapper classes usage
-- Autoboxing and unboxing
-- Collections with wrapper classes
+</div>
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- Java Development Kit (JDK) 8 or higher
-- Any Java IDE (Eclipse, IntelliJ IDEA, VS Code)
-- Basic understanding of Java syntax
+<details>
+<summary><b>🔧 Prerequisites</b></summary>
 
-### Running Programs
-1. Navigate to any folder
-2. Compile: `javac FileName.java`
-3. Run: `java FileName`
+- ☕ **Java Development Kit (JDK)** 8 or higher
+- 🛠️ **IDE**: Eclipse, IntelliJ IDEA, or VS Code
+- 📚 **Basic understanding** of Java syntax
 
-### For Package-based Programs
+</details>
+
+<details>
+<summary><b>▶️ Running Programs</b></summary>
+
+### Simple Programs
 ```bash
-# From root directory
-javac FolderName/FileName.java
-java FolderName.FileName
+# Navigate to any folder
+cd Arrays/
+
+# Compile
+javac FindLargest.java
+
+# Run
+java FindLargest
 ```
 
-## 📖 Learning Path
+### Package-based Programs
+```bash
+# From root directory
+javac Abstraction/ABasic.java
+java Abstraction.ABasic
+```
 
-### Beginner Level
-1. **methods/** - Start with basic method concepts
-2. **Objects_Strings/** - Learn object creation and string basics
-3. **Arrays/** - Practice array operations
-4. **NumberPrograms/** - Implement mathematical algorithms
+</details>
 
-### Intermediate Level
-1. **OOPs/** - Master object-oriented concepts
-2. **inheritance/** - Understand inheritance hierarchy
-3. **polymorphisam/** - Learn method overriding
-4. **Strings/** - Advanced string manipulations
+## 🎯 Learning Path
 
-### Advanced Level
-1. **Abstraction/** - Abstract classes and interfaces
-2. **Exceptions/** - Exception handling mechanisms
-3. **OOP_Concepts/** - Advanced OOP implementations
-4. **Relations_In_java/** - Object relationships
+<div align="center">
 
-## 🎯 Key Features
+### 🌱 **Beginner Level**
+```mermaid
+graph LR
+    A[methods/] --> B[Objects_Strings/]
+    B --> C[Arrays/]
+    C --> D[NumberPrograms/]
+```
 
-- **Beginner-friendly code** with clear comments
-- **Real-world examples** and scenarios
-- **Progressive difficulty** from basic to advanced
-- **Complete coverage** of Java fundamentals
-- **Best practices** implementation
+### 🌿 **Intermediate Level**
+```mermaid
+graph LR
+    A[OOPs/] --> B[inheritance/]
+    B --> C[polymorphisam/]
+    C --> D[Strings/]
+```
+
+### 🌳 **Advanced Level**
+```mermaid
+graph LR
+    A[Abstraction/] --> B[Exceptions/]
+    B --> C[Collections/]
+    C --> D[Functional_Programming/]
+```
+
+</div>
+
+<details>
+<summary><b>📋 Detailed Learning Roadmap</b></summary>
+
+| 🎚️ **Level** | 📁 **Topics** | ⏱️ **Duration** | 🎯 **Goals** |
+|:------------:|:-------------:|:---------------:|:------------:|
+| **Beginner** | Methods, Objects, Arrays, Numbers | 2-3 weeks | Master Java basics |
+| **Intermediate** | OOP, Inheritance, Polymorphism, Strings | 3-4 weeks | Understand OOP concepts |
+| **Advanced** | Abstraction, Exceptions, Collections, Functional | 4-5 weeks | Professional Java skills |
+
+</details>
+
+## ✨ Key Features
+
+<div align="center">
+
+| 🎯 **Feature** | 📝 **Description** |
+|:--------------:|:------------------:|
+| 👶 **Beginner-friendly** | Clear comments and simple logic |
+| 🌍 **Real-world examples** | Practical scenarios and applications |
+| 📈 **Progressive difficulty** | From basic to advanced concepts |
+| 📚 **Complete coverage** | All Java fundamentals included |
+| ✅ **Best practices** | Industry-standard implementations |
+| 📖 **Well-documented** | Comprehensive README files |
+
+</div>
 
 ## 📝 Code Style
 
@@ -147,15 +182,64 @@ java FolderName.FileName
 
 ## 🤝 Contributing
 
-Feel free to:
-- Add new programs
-- Improve existing code
-- Fix bugs or issues
-- Enhance documentation
+<div align="center">
 
-## 📞 Support
+**We welcome contributions! Here's how you can help:**
 
-For questions or suggestions, please refer to individual folder README files for specific topics.
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+</div>
+
+<details>
+<summary><b>🔧 How to Contribute</b></summary>
+
+1. **🍴 Fork** the repository
+2. **🌿 Create** a feature branch (`git checkout -b feature/AmazingFeature`)
+3. **💾 Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
+4. **📤 Push** to the branch (`git push origin feature/AmazingFeature`)
+5. **🔄 Open** a Pull Request
+
+### 📝 Contribution Guidelines
+- ✅ Add new programs with clear documentation
+- ✅ Follow existing code style and naming conventions
+- ✅ Include comments explaining complex logic
+- ✅ Update README files when adding new folders
+- ✅ Test your code before submitting
+
+</details>
+
+## 📞 Support & Contact
+
+<div align="center">
+
+**Need help or have questions?**
+
+[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-red?style=for-the-badge&logo=github)](https://github.com/your-username/java-practice/issues)
+[![Discussions](https://img.shields.io/badge/GitHub-Discussions-blue?style=for-the-badge&logo=github)](https://github.com/your-username/java-practice/discussions)
+
+📧 **Email**: your-email@example.com  
+💬 **Discord**: YourDiscord#1234  
+🐦 **Twitter**: [@YourTwitter](https://twitter.com/YourTwitter)
+
+</div>
 
 ---
+
+<div align="center">
+
+## 🌟 Show Your Support
+
+**If this repository helped you learn Java, please consider:**
+
+⭐ **Star this repository**  
+🍴 **Fork for your own learning**  
+📢 **Share with fellow developers**  
+
+[![GitHub stars](https://img.shields.io/github/stars/your-username/java-practice?style=social)](https://github.com/your-username/java-practice/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/your-username/java-practice?style=social)](https://github.com/your-username/java-practice/network/members)
+
 **Happy Coding! 🎉**
+
+*Made with ❤️ for the Java community*
+
+</div>
