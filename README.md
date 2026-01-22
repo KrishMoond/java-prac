@@ -214,12 +214,10 @@ graph LR
 
 **Need help or have questions?**
 
-[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-red?style=for-the-badge&logo=github)](https://github.com/your-username/java-practice/issues)
-[![Discussions](https://img.shields.io/badge/GitHub-Discussions-blue?style=for-the-badge&logo=github)](https://github.com/your-username/java-practice/discussions)
+[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-red?style=for-the-badge&logo=github)](../../issues)
+[![Discussions](https://img.shields.io/badge/GitHub-Discussions-blue?style=for-the-badge&logo=github)](../../discussions)
 
-📧 **Email**: your-email@example.com  
-💬 **Discord**: YourDiscord#1234  
-🐦 **Twitter**: [@YourTwitter](https://twitter.com/YourTwitter)
+📧 **Email**: moondkrish921@gmail.com
 
 </div>
 
@@ -235,8 +233,8 @@ graph LR
 🍴 **Fork for your own learning**  
 📢 **Share with fellow developers**  
 
-[![GitHub stars](https://img.shields.io/github/stars/your-username/java-practice?style=social)](https://github.com/your-username/java-practice/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/your-username/java-practice?style=social)](https://github.com/your-username/java-practice/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/moondkrish921/java-practice?style=social)](../../stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/moondkrish921/java-practice?style=social)](../../network/members)
 
 **Happy Coding! 🎉**
 
